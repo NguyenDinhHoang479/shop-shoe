@@ -1,0 +1,5 @@
+[
+    {"id":1, "nameBanner": "slider1.webp", "subTitle": "Best Selling!", "mainTitle": "Top Collection", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", "hidden": 1 },
+    {"id":2, "nameBanner": "slider2.webp", "subTitle": "Best Selling!", "mainTitle": "Top Collection", "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid", "hidden": 1 },
+    {"id":3, "nameBanner": "slider2.webp", "subTitle": "Best Selling!", "mainTitle": "Top Collection", "content": "Lohasifijbnjsndcr adipisicing elit, sed do eiusmod tempor incidid", "hidden": 0}
+]

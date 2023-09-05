@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./FONT/css/all.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <section id="header">
+      <div class="header_top">
+        <div class="header_top-item">Welcome to Juan online store</div>
+        <div class="header_top-item">
+          <ul>
+            <li>
+              $ Dollar (US)
+              <i class="fa-thin fa-chevron-down"></i>
+            </li>
+            <li style="border-left: 2px solid #fff">
+              <img src="./IMAGES/icon_en.webp" alt="en" />
+              English
+              <i class="fa-thin fa-chevron-down"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_bot">
+        <div class="inner">
+          <div class="nav_inner">
+            <div class="nav_inner-item">
+              <img src="./IMAGES/logo_img.webp" alt="logo" />
+            </div>
+            <div class="nav_inner-item">
+              <div class="nabbar_desktop">
+                <ul>
+                  <li class="navhome nabbar_desktop_active">
+                    <a href="./index.html">home</a>
+                    <i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu">
+                      <!-- <li>Home version 1</li>
+                      <li>Home version 2</li> -->
+                    </ul>
+                  </li>
+                  <li class="navhome">pages<i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu-page">
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="navhome"><a href="./shop.html">shop </a><i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu sub_menu-shop">
+                      <li>Home version 1</li>
+                      <li>Home version 2</li>
+                    </ul>
+                  </li>
+                  <li class="navhome">blog <i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu sub_menu-blog">
+                      <li>Home version 1</li>
+                      <li>Home version 2</li>
+                    </ul>
+                  </li>
+                  <li class="navhome"><a href="./contactus.html">contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav_inner-item">
+              <div style="cursor: pointer;" class="navbar_desktop_icon">
+                <a style="text-decoration: none;" href="./search.html">
+                  <i class="fa-thin fa-magnifying-glass"></i>
+                </a>
+                <i class="fa-thin fa-gear"></i>
+                <i onclick="homecart()" class="fa-thin fa-bag-shopping"></i>
+                <div class="model_cart">
+                  <div class="model_cart_container">
+                    <div class="cart_close">
+                      <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="cart_content_inner">
+                      <div class="cart_product">
+                        <ul class="js_subCart">
+                        </ul>
+                      </div>
+                      <div class="cart_pricing">
+                        <ul>
+                          <li>
+                            <span>Sub-total</span>
+                            <span><strong class="js_Subtotal">$0.00</strong></span>
+                          </li>
+                          <li>
+                            <span>Print invoices</span>
+                            <span><strong>$10.00</strong></span>
+                          </li>
+                          <li>
+                            <span>VAT (20%)</span>
+                            <span><strong class="js_VAT">$0.00</strong></span>
+                          </li>
+                          <li>
+                            <span>Total</span>
+                            <span><strong class="js_total">$0.00</strong></span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="cart_button">
+                        <a href="./cart.html">
+                          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                          view cart
+                        </a>
+                        <a href="./checkout.html">
+                          <i class="fa-duotone fa-check-to-slot"></i>
+                          checkout
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- body -->
+    <!-- slider -->
+    <section id="slider">
+      <div class="inner">
+        <div class="slider_inner">
+          <!-- slide1 -->
+          <!-- <div class="image_slider">
+            <img src="./IMAGES/slider1.webp" alt="" />
+            <div class="slider_left">
+              <h5>Best Selling!</h5>
+              <h2>Top Collection</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incidid
+              </p>
+              <button href="index.html" class="btn_slider">Shop now</button>
+            </div>
+          </div> -->
+          <!-- slide2 -->
+          <!-- <div class="image_slider">
+            <img src="./IMAGES/slider2.webp" alt="" />
+            <div class="slider_left">
+              <h5>Best Selling!</h5>
+              <h2>Top Collection</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incidid
+              </p>
+              <button href="index.html" class="btn_slider btn_slider2">
+                Shop now
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- info -->
+    <section id="info">
+      <div class="grid wide">
+        <div class="row row_info">
+          <div class="col_info col l-4">
+            <div class="info_item">
+              <img src="./IMAGES/policy-1.webp" alt="" />
+              <div class="info_content">
+                <h3>FREE SHIPPING</h3>
+                <h5>Free shipping on all order</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col_info col l-4">
+            <div class="info_item info_item2">
+              <img src="./IMAGES/policy-2.webp" alt="" />
+              <div class="info_content">
+                <h3>FREE SHIPPING</h3>
+                <h5>Free shipping on all order</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col_info col l-4">
+            <div class="info_item info_item3">
+              <img src="./IMAGES/policy-3.webp" alt="" />
+              <div class="info_content">
+                <h3>FREE SHIPPING</h3>
+                <h5>Free shipping on all order</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- out_product -->
+    <section id="our_product">
+      <div class="title">
+        <h2>Our Product</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+      <div class="grid wide">
+        <div class="row slider_product">
+         
+        </div>
+      </div>
+
+      <!-- banner sell -->
+      <div class="banner_sel">
+        <div class="banner_sel-iner">
+          <div class="banner_sel-item">
+            <img src="./IMAGES/banner-1.webp" alt="bannersell" />
+            <div class="banner_sel-text">
+              <h5>sports shoes</h5>
+              <h3>20% Off <br />For Sports men</h3>
+            </div>
+            <div class="screen_rgba"></div>
+          </div>
+          <div class="banner_sel-item">
+            <img src="./IMAGES/banner-2.webp" alt="bannersell" />
+            <div class="banner_sel-text">
+              <h5>sports shoes</h5>
+              <h3>20% Off <br />For Sports men</h3>
+            </div>
+            <div class="screen_rgba"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- top seller -->
+    <section id="seller">
+      <div class="title">
+        <h2>top seller</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+      <div class="grid wide">
+        <div class="row no-gutters">
+          <div class="col l-4">
+            <img class="img_seller" src="./IMAGES/banner-3.webp" alt="">
+          </div>
+          <div class="col l-8">
+            <div class="row no-gutters">
+              <div class="col l-6">
+                <div class="seller_product">
+                  <img src="./IMAGES/pro-small-1.webp" alt="">
+                  <div class="info_product_seller">
+                    <h6>Simple Fabric Shoe</h6>
+                    <div class="price_box">
+                      <span>$80.00</span>
+                      <span><del>$70.00</del></span>
+                    </div>
+                    <div class="ratings">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="seller_button">
+                      <div class="seller_heart">
+                        <i class="fa-thin fa-heart"></i>
+                      </div>
+                      <div class="seller_bag">
+                        <i class="fa-thin fa-bag-shopping"></i>
+                      </div>
+                      <div class="seller_eye">
+                        <i class="fa-thin fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-6 ">
+                <div class="seller_product">
+                  <img src="./IMAGES/pro-small-2.webp" alt="">
+                  <div class="info_product_seller">
+                    <h6>Simple Fabric Shoe</h6>
+                    <div class="price_box">
+                      <span>$80.00</span>
+                      <span><del>$70.00</del></span>
+                    </div>
+                    <div class="ratings">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="seller_button">
+                      <div class="seller_heart">
+                        <i class="fa-thin fa-heart"></i>
+                      </div>
+                      <div class="seller_bag">
+                        <i class="fa-thin fa-bag-shopping"></i>
+                      </div>
+                      <div class="seller_eye">
+                        <i class="fa-thin fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-6 ">
+                <div class="seller_product" style="margin-top: 30px;">
+                  <img src="./IMAGES/pro-small-3.webp" alt="">
+                  <div class="info_product_seller">
+                    <h6>Simple Fabric Shoe</h6>
+                    <div class="price_box">
+                      <span>$80.00</span>
+                      <span><del>$70.00</del></span>
+                    </div>
+                    <div class="ratings">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="seller_button">
+                      <div class="seller_heart">
+                        <i class="fa-thin fa-heart"></i>
+                      </div>
+                      <div class="seller_bag">
+                        <i class="fa-thin fa-bag-shopping"></i>
+                      </div>
+                      <div class="seller_eye">
+                        <i class="fa-thin fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col l-6 ">
+                <div class="seller_product" style="margin-top: 30px;">
+                  <img src="./IMAGES/pro-small-4.webp" alt="">
+                  <div class="info_product_seller">
+                    <h6>Simple Fabric Shoe</h6>
+                    <div class="price_box">
+                      <span>$80.00</span>
+                      <span><del>$70.00</del></span>
+                    </div>
+                    <div class="ratings">
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                      <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <div class="seller_button">
+                      <div class="seller_heart">
+                        <i class="fa-thin fa-heart"></i>
+                      </div>
+                      <div class="seller_bag">
+                        <i class="fa-thin fa-bag-shopping"></i>
+                      </div>
+                      <div class="seller_eye">
+                        <i class="fa-thin fa-eye"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- our blog -->
+    <section id="our_blog">
+      <div class="title">
+        <h2>our blog</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+      <div class="grid wide">
+        <div class="row no-gutters">
+          <div class="col l-4">
+            <div class="our_blog-items">
+              <img src="./IMAGES/blog-1.webp" alt="">
+              <div class="our_blog-info">
+                <h5 class="blog_title">
+                  Celebrity Daughter Opens About to Having Her Eye color
+                </h5>
+                <ul class="box_meta">
+                  <li>Admin</li>
+                  <li>
+                    <span>on</span>
+                    "14.07.2029"
+                  </li>
+                </ul>
+                <p>Read More...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-4">
+            <div class="our_blog-items">
+              <img src="./IMAGES/blog-2.webp" alt="">
+              <div class="our_blog-info">
+                <h5 class="blog_title">
+                  Celebrity Daughter Opens About to Having Her Eye color
+                </h5>
+                <ul class="box_meta">
+                  <li>Admin</li>
+                  <li>
+                    <span>on</span>
+                    "14.07.2029"
+                  </li>
+                </ul>
+                <p>Read More...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col l-4">
+            <div class="our_blog-items">
+              <img src="./IMAGES/blog-3.webp" alt="">
+              <div class="our_blog-info">
+                <h5 class="blog_title">
+                  Celebrity Daughter Opens About to Having Her Eye color
+                </h5>
+                <ul class="box_meta">
+                  <li>Admin</li>
+                  <li>
+                    <span>on</span>
+                    "14.07.2029"
+                  </li>
+                </ul>
+                <p>Read More...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trademark -->
+    <section id="trademark">
+        <div class="grid wide">
+          <div class="row no-gutters">
+            <div class="col l-3">
+              <img class="img_branl" src="./IMAGES/br1.webp" alt="">
+            </div>
+            <div class="col l-3">
+              <img class="img_branl" src="./IMAGES/br2.webp" alt="">
+            </div>
+            <div class="col l-3">
+              <img class="img_branl" src="./IMAGES/br3.webp" alt="">
+            </div>
+            <div class="col l-3">
+              <img class="img_branl" src="./IMAGES/br4.webp" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="footer_inner">
+        <div class="grid wide">
+          <div class="row no-gutters">
+            <div class="col l-5">
+              <h5 class="footer_title">My Account</h5>
+              <div class="content_items_footer">
+                <ul class="items_footer-list">
+                  <li><i class="fa-thin fa-location-dot"></i>184 Main Rd E, St Albans VIC 3021, Australia</li>
+                  <li><i class="fa-thin fa-envelope"></i>Mail Us: yourmail@gmail.com</li>
+                  <li><i class="fa-thin fa-phone"></i>Phone: + 00 254 254565</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2">
+              <h5 class="footer_title">Categories</h5>
+              <ul class="items_footer-list">
+                <li class="list_categori-ft">Ecommerce</li>
+                <li class="list_categori-ft">Shopify</li>
+                <li class="list_categori-ft">Prestashop</li>
+                <li class="list_categori-ft">Opencart</li>
+                <li class="list_categori-ft">Magento</li>
+                <li class="list_categori-ft">Jigoshop</li>
+              </ul>
+            </div>
+            <div class="col l-2">
+              <h5 class="footer_title">Information</h5>
+              <ul class="items_footer-list">
+                <li class="list_categori-ft">Home</li>
+                <li class="list_categori-ft">About Us</li>
+                <li class="list_categori-ft">Contact Us</li>
+                <li class="list_categori-ft">Returns & Exchanges</li>
+                <li class="list_categori-ft">Shipping & Delivery</li>
+                <li class="list_categori-ft">Privacy Policy</li>
+              </ul>
+            </div>
+            <div class="col l-3" style="text-align: center;">
+              <h5 class="footer_title">Quick Links</h5>
+              <ul class="items_footer-list">
+                <li class="list_categori-ft">Store Location</li>
+                <li class="list_categori-ft">My Account</li>
+                <li class="list_categori-ft">Orders Tracking</li>
+                <li class="list_categori-ft">Size Guide</li>
+                <li class="list_categori-ft">Shopping Rates</li>
+                <li class="list_categori-ft">Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer end -->
+    <section id="ft_end">
+      <div class="grid wide">
+        <div class="row no-gutters">
+          <div class="col l-6">
+            <p class="p_ft_end">© 2022 <b>Juan</b> Made with <i class="fa-sharp fa-solid fa-heart"></i> by <b class="HasThemes">HasThemes</b></p>
+          </div>
+          <div class="col l-6">
+           <ul class="i_ft_end">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+           </ul>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- <div class="see_quick_container">
+      <div class="see_quick-model">
+        <div class="row">
+          <div class="col l-5">
+            <div class="see_quick-img">
+              <img src="./IMAGES/product-1.webp" alt="">
+            </div>
+            <div class="see_quick_items">
+              <div class="see_quick_item">
+                <img src="./IMAGES/product-1.webp" alt="">
+              </div>
+              <div class="see_quick_item">
+                <img src="./IMAGES/product-1.webp" alt="">
+              </div>
+              <div class="see_quick_item">
+                <img src="./IMAGES/product-1.webp" alt="">
+              </div>
+              <div class="see_quick_item">
+                <img src="./IMAGES/product-1.webp" alt="">
+              </div>
+            </div> -->
+          </div>
+          <div class="col l-7"></div>
+        </div>
+      </div>
+    </div> -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./JS/cart.js"></script>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>

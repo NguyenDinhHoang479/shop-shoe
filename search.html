@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <link rel="stylesheet" href="./FONT/css/all.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <section id="header">
+      <div class="header_top">
+        <div class="header_top-item">Welcome to Juan online store</div>
+        <div class="header_top-item">
+          <ul>
+            <li>
+              $ Dollar (US)
+              <i class="fa-thin fa-chevron-down"></i>
+            </li>
+            <li style="border-left: 2px solid #fff">
+              <img src="./IMAGES/icon_en.webp" alt="en" />
+              English
+              <i class="fa-thin fa-chevron-down"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_bot">
+        <div class="inner">
+          <div class="nav_inner">
+            <div class="nav_inner-item">
+              <img src="./IMAGES/logo_img.webp" alt="logo" />
+            </div>
+            <div class="nav_inner-item">
+              <div class="nabbar_desktop">
+                <ul>
+                  <li class="navhome nabbar_desktop_active">
+                    <a href="./index.html">home</a>
+                    <i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu">
+                      <!-- <li>Home version 1</li>
+                      <li>Home version 2</li> -->
+                    </ul>
+                  </li>
+                  <li class="navhome">pages<i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu-page">
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                      <li class="sub_menu-items">
+                        <ul>
+                          <li>shop grid left sidebar</li>
+                          <li>shop grid right sidebar</li>
+                          <li>shop list left sidebar</li>
+                          <li>shop list right sidebar</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="navhome"><a href="./shop.html">shop </a><i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu sub_menu-shop">
+                      <li>Home version 1</li>
+                      <li>Home version 2</li>
+                    </ul>
+                  </li>
+                  <li class="navhome">blog <i class="fa-thin fa-chevron-down"></i>
+                    <ul class="sub_menu sub_menu-blog">
+                      <li>Home version 1</li>
+                      <li>Home version 2</li>
+                    </ul>
+                  </li>
+                  <li class="navhome"><a href="./contactus.html">contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav_inner-item">
+              <div style="cursor: pointer;" class="navbar_desktop_icon">
+                <i class="fa-thin fa-magnifying-glass"></i>
+                <i class="fa-thin fa-gear"></i>
+                <i onclick="homecart()" class="fa-thin fa-bag-shopping"></i>
+                <div class="model_cart">
+                  <div class="model_cart_container">
+                    <div class="cart_close">
+                      <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="cart_content_inner">
+                      <div class="cart_product">
+                        <ul class="js_subCart">
+                          <!-- <li class="product_items-in_cart">
+                            <div class="product_items-in_cart_img">
+                              <img src="./IMAGES/product-1.webp" alt="">
+                            </div>
+                            <div class="product_items-in_cart_name">
+                              <h3 class="product_cart-name">Flowers bouquet pink for all flower lovers</h3>
+                              <p><span class="quantity_cart">1 <strong>x</strong></span> <span class="price_cart">$100.00</span></p>
+                            </div>
+                            <div class="product_items-in_cart_remove ">
+                              <i class="fa-solid fa-trash-can"></i>
+                            </div>
+                          </li> -->
+                        </ul>
+                      </div>
+                      <div class="cart_pricing">
+                        <ul>
+                          <li>
+                            <span>Sub-total</span>
+                            <span><strong class="js_Subtotal">$0.00</strong></span>
+                          </li>
+                          <li>
+                            <span>Print invoices</span>
+                            <span><strong>$10.00</strong></span>
+                          </li>
+                          <li>
+                            <span>VAT (20%)</span>
+                            <span><strong class="js_VAT">$0.00</strong></span>
+                          </li>
+                          <li>
+                            <span>Total</span>
+                            <span><strong class="js_total">$0.00</strong></span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="cart_button">
+                        <a href="./cart.html">
+                          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                          view cart
+                        </a>
+                        <a href="./checkout.html">
+                          <i class="fa-duotone fa-check-to-slot"></i>
+                          checkout
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- body -->
+    <section class="grid wide">
+        <div class="search_container">
+            <i  class="fa-light fa-magnifying-glass btn_search"></i>
+            <input class="search_content" type="text" placeholder="Search" onkeyup="searching()">
+        </div>
+    </section>
+    <section>
+      <div class="grid wide">
+        <div class="row no-gutters js_boxSearch">
+
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="footer_inner">
+        <div class="grid wide">
+          <div class="row no-gutters">
+            <div class="col l-5">
+              <h5 class="footer_title">My Account</h5>
+              <div class="content_items_footer">
+                <ul class="items_footer-list">
+                  <li><i class="fa-thin fa-location-dot"></i>184 Main Rd E, St Albans VIC 3021, Australia</li>
+                  <li><i class="fa-thin fa-envelope"></i>Mail Us: yourmail@gmail.com</li>
+                  <li><i class="fa-thin fa-phone"></i>Phone: + 00 254 254565</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col l-2">
+              <h5 class="footer_title">Categories</h5>
+              <ul class="items_footer-list">
+                <li class="list_categori-ft">Ecommerce</li>
+                <li class="list_categori-ft">Shopify</li>
+                <li class="list_categori-ft">Prestashop</li>
+                <li class="list_categori-ft">Opencart</li>
+                <li class="list_categori-ft">Magento</li>
+                <li class="list_categori-ft">Jigoshop</li>
+              </ul>
+            </div>
+            <div class="col l-2">
+              <h5 class="footer_title">Information</h5>
+              <ul class="items_footer-list">
+                <li class="list_categori-ft">Home</li>
+                <li class="list_categori-ft">About Us</li>
+                <li class="list_categori-ft">Contact Us</li>
+                <li class="list_categori-ft">Returns & Exchanges</li>
+                <li class="list_categori-ft">Shipping & Delivery</li>
+                <li class="list_categori-ft">Privacy Policy</li>
+              </ul>
+            </div>
+            <div class="col l-3" style="text-align: center;">
+              <h5 class="footer_title">Quick Links</h5>
+              <ul class="items_footer-list">
+                <li class="list_categori-ft">Store Location</li>
+                <li class="list_categori-ft">My Account</li>
+                <li class="list_categori-ft">Orders Tracking</li>
+                <li class="list_categori-ft">Size Guide</li>
+                <li class="list_categori-ft">Shopping Rates</li>
+                <li class="list_categori-ft">Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer end -->
+    <section id="ft_end">
+      <div class="grid wide">
+        <div class="row no-gutters">
+          <div class="col l-6">
+            <p class="p_ft_end">© 2022 <b>Juan</b> Made with <i class="fa-sharp fa-solid fa-heart"></i> by <b class="HasThemes">HasThemes</b></p>
+          </div>
+          <div class="col l-6">
+           <ul class="i_ft_end">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+           </ul>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./JS/cart.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/search.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nameProduct": "Leather Mens Slipper",
+    "price": 980,
+    "priceOld": "$70.000",
+    "nameImage": "product-1.webp",
+    "category": "Mens",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "nameProduct": "Quickiin Mens shoes",
+    "price": 430,
+    "priceOld": "$50.000",
+    "nameImage": "product-2.webp",
+    "category": "Womens",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "nameProduct": "Rexpo Womens shoes",
+    "price": 302,
+    "priceOld": "$60.000",
+    "nameImage": "product-3.webp",
+    "category": "Sports",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "nameProduct": "Rexpo Womens shoes",
+    "price": 701,
+    "priceOld": "$80.000",
+    "nameImage": "product-4.webp",
+    "category": "Fabric",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "nameProduct": "Quickiin Mens shoes",
+    "price": 601,
+    "priceOld": "$90.000",
+    "nameImage": "product-5.webp",
+    "category": "Leather",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "nameProduct": "Primitive Mens shoes",
+    "price": 659,
+    "priceOld": "$90.000",
+    "nameImage": "product-6.webp",
+    "category": "Fabric",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "nameProduct": "Leather Mens Slipper",
+    "price": 504,
+    "priceOld": "$90.000",
+    "nameImage": "product-7.webp",
+    "category": "Mens",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 8,
+    "nameProduct": "Rexpo Womens shoes",
+    "price": 207,
+    "priceOld": "$90.000",
+    "nameImage": "product-8.webp",
+    "category": "Leather",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 9,
+    "nameProduct": "Leather Mens Slipper",
+    "price": 822,
+    "priceOld": "$90.000",
+    "nameImage": "product-9.webp",
+    "category": "Sports",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 10,
+    "nameProduct": "Leather Mens Slipper",
+    "price": 918,
+    "priceOld": "$90.000",
+    "nameImage": "product-10.webp",
+    "category": "Leather",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 11,
+    "nameProduct": "Leather Mens Slipper",
+    "price": 368,
+    "priceOld": "$90.000",
+    "nameImage": "product-11.webp",
+    "category": "Womens",
+    "showOurProduct": 1,
+    "quantity": 1
+  },
+  {
+    "id": 12,
+    "nameProduct": "Leather Mens Slipper",
+    "price": 604,
+    "priceOld": "$90.000",
+    "nameImage": "product-12.webp",
+    "category": "Sports",
+    "showOurProduct": 1,
+    "quantity": 1
+  }
+]
